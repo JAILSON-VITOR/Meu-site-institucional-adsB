@@ -1,0 +1,117 @@
+body {
+    background-image: url(../logo/fundo.png);
+    background-size: 100%;
+ margin: 0;
+ padding: 0;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+background-color:   #1C947C ;
+height: 80px;
+padding-top: 30px;
+border-top: #2EC4B6  solid 5px;
+}
+
+.tatle-header{
+    float: left;
+    color: floralwhite;
+    display: inline-flex;
+}
+
+.tatle-header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+}
+
+.header .nav .current a{
+color: black;
+}
+
+.container{
+width: 80%;
+margin: auto;
+
+height: 50px;
+height: 60px;
+}
+
+.tatle-header h1,
+.nav
+{
+    margin: 0;
+}
+
+.tatle-header{
+float: left;
+color: floralwhite;
+}
+
+.nav{
+float: right;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: floralwhite;
+    text-transform: uppercase;
+}
+
+.nav li{
+display: inline-block;
+padding: 10px 20px 0 20px;
+}
+
+/* .imagem {
+text-align: center;
+align-items: center;
+} */
+
+.imagem img {
+    width: 500px;
+    float: right;
+    margin-top: -207px;
+    margin-right: 22vh;
+}
+.imagem h3{
+    margin-left: 249px;
+}
+
+.div_teste{
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 220px;
+}
+
+.barradebaixo {
+    margin-top: 28%;
+    background-color: #1C947C ;
+    height: 150px;
+}
+
+footer .div_texto{
+    font-size: 15px;
+    width: 262px;
+    padding-top: 82px;
+    margin-left: 42%;
+    text-align: center;
+}
+
+footer .div_texto i{
+    font-size: 20%;
+    color: gold;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+footer .div_contato {
+    justify-items: center;
+    align-content: center;
+    float: right;
+    margin-right: 1%;
+    padding-top: 2%;
+}
