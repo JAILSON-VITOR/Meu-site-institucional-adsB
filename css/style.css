@@ -73,7 +73,7 @@ align-items: center;
 .imagem img {
     width: 500px;
     float: right;
-    margin-top: -207px;
+    margin-top: -280px;
     margin-right: 22vh;
 }
 .imagem h3{
@@ -110,8 +110,18 @@ footer .div_texto i{
 
 footer .div_contato {
     justify-items: center;
-    align-content: center;
+    align-content: 200px;
     float: right;
     margin-right: 1%;
     padding-top: 2%;
+}
+/*tela de login*/ 
+.telalogin {
+
+}
+
+.instagram{
+    content: "\f16d";
+    padding-left: 150px;
+    padding-top: 1000px;
 }
